@@ -1,0 +1,27 @@
+.home {
+    background-image: url('../../images/foto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 175px;
+    margin-bottom: 120px;
+}
+
+.home__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home__title {
+    color: #fff;
+    font-size: 50px;
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.home__text{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 345px;
+}

@@ -1,0 +1,11 @@
+.container{
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--kyivtype);
+    font-weight: 500;
+    position: relative;
+}

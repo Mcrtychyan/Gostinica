@@ -1,0 +1,17 @@
+@import 'vendor/_vars.css';
+@import 'vendor/global.css';
+@import 'vendor/_reset.css';
+@import 'vendor/_fonts.css';
+
+@import 'components/_footer.css';
+@import 'components/_header.css';
+
+@import 'home/_home.css';
+@import 'home/_sale.css';
+@import 'home/_relax.css';
+@import 'home/_location.css';
+
+@import 'home/_contact.css';
+
+@import 'home/_gorod.css';
+@import 'home/_nature.css';
