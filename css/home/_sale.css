@@ -212,4 +212,29 @@
     margin-bottom: 60px;
   }
 
+  .mapa{
+    height: 500px;
+}
+}
+
+@media(max-width: 768px){
+  .sale__list {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  }
+
+  .proba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.sale__card{
+  width: 400px;
+}
+
+.mapa{
+  height: 400px;
+}
+
 }
