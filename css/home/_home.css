@@ -25,3 +25,36 @@
     color: #fff;
     margin-bottom: 345px;
 }
+
+@media (max-width: 1200px){
+
+    .home{
+        margin-bottom: 70px;
+    }
+
+    .home__title{
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+
+    .home__text{
+        font-size: 30px;
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 968px){
+    .home{
+        margin-bottom: 50px;
+    }
+
+    .home__title{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .home__text{
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+}

@@ -59,3 +59,129 @@
 .header__phone:focus{
     border-color: #F2D324;
 }
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 1100px){
+    .header__list{
+        gap: 50px;
+    }
+}
+
+@media (max-width: 968px){
+
+    .header__nav{
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        z-index: 10;
+        background-color: #fff;
+        display: block;
+        pointer-events: none;
+        user-select: none;
+        transform: translateX(100%);
+        overflow: hidden;
+        transition: transform .6s;
+        padding-top: 20px;
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+        right: 0;
+    }
+
+    .menu--open {
+        transform: translateX(0);
+        user-select: auto;
+        pointer-events: auto;
+    }
+
+    .menu__list {
+        font-size: 18px;
+        display: flex;
+        list-style-type: none;
+        color: var(--soft-green);
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    .menu__content {
+        font-size: 20px;
+        list-style-type: none;
+        color: #FD690D;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .menu__btn {
+        background-color: #fff;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+
+    .menu__btn span,
+    .menu__btn span::before,
+    .menu__btn span::after {
+        position: absolute;
+        height: 3px;
+        margin-top: -2px;
+        width: 22px;
+        left: 0;
+        top: 50%;
+        transform: translateX(62%);
+        background-color: #222;
+    }
+
+    .menu__btn span::before,
+    .menu__btn span::after {
+        content: '';
+        transition: transform .3s;
+    }
+
+    .menu__btn span::before {
+        transform: translateY(-10px);
+    }
+
+    .menu__btn span::after {
+        transform: translateY(10px);
+    }
+
+    .menu__btn_active span::before {
+        transform: rotate(45deg);
+    }
+
+    .menu__btn_active span::after {
+        transform: rotate(-45deg);
+    }
+
+    .menu__btn_active span {
+        height: 0;
+    }
+
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .header__logo{
+        display: none;
+        
+    }
+
+    .mapa{
+        height: 500px;
+    }
+}
+

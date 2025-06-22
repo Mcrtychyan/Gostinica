@@ -11,3 +11,14 @@
 .parking{
     margin-bottom: 100px;
 }
+
+@media(max-width: 968px){
+    .relax__title{
+        font-size: 35px;
+        margin-bottom: 60px;
+    }
+
+    .parking{
+        margin-bottom: 60px;
+    }
+}
