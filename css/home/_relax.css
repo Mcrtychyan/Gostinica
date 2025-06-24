@@ -22,3 +22,15 @@
         margin-bottom: 60px;
     }
 }
+
+@media (max-width: 420px){
+
+    .relax{
+        margin-bottom: 50px;
+    }
+
+    .relax__title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}

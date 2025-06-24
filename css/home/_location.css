@@ -17,6 +17,13 @@
     }
 }
 
-@media(max-width: 768px){
-    
+@media (max-width: 420px){
+    .locatioin__title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .locatioin__card{
+        margin-bottom: 50px;
+    }
 }

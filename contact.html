@@ -29,7 +29,26 @@
                     </ul>
                 </nav>
                 <a class="header__phone" href="tel:+79181239995">+7-918-123-99-95</a>
+                <button class="menu__btn" id="menuBtn" type="button">
+                    <span></span>
+                </button>
             </div>
+        </div>
+
+        <div class="menu">
+            <nav class="content__menu">
+                <ul class="menu__content">
+                    <li>
+                        <a class="menu__list" href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a class="menu__list" href="contact.html">Контакты</a>
+                    </li>
+                    <li>
+                        <a class="menu__list" href="gorod.html">О нашем городе</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -55,47 +74,15 @@
         </div>
     </section>
 
-    <section class="button">
-        <div class="container">
-            <div class="button__content">
-                <button class="button__btn">Забронировать</button>
-            </div>
-        </div>
-    </section>
     <main>
-
-
         <section class="locatioin">
             <div class="container">
                 <div class="locatioin__card">
-                    <iframe
+                    <iframe class="mapa"
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A5293bad17d9a8c43ac6baadeef9750dfac004b7d834ceb4e7d6bafca4698ad14&amp;source=constructor"
                         width="100%" height="718" frameborder="0"></iframe>
                 </div>
-                
-                <div class="modal-sale">
-                    <div class="modal-sale__buy">
-                        
-                        <h3 class="modal-sale__title">Оставь свои контакты мы свяжимся с тобой</h3>
-                    </div>
-                    <ul class="modal-sale__list">
-                        <li class="modal-sale__item">
-                            <h3 class="modal-sale__name">Ваше имя</h3>
-                            <input class="modal-sale__box" type="text" placeholder="Введите ваше имя">
-                        </li>
-                        <li class="modal-sale__item">
-                            <h3 class="modal-sale__name">Ваш номер телефона</h3>
-                            <input class="modal-sale__box" type="text" placeholder="Оставь свой номер чтобы с тобой связались">
-                        </li>
-                    </ul>
-                    <div class="modal-sale__footer">
-                        <button class="modal-sale__purchase">
-                            Отправить
-                        </button>
-                    </div>
-                </div>
         </section>
-
 </body>
 </main>
 <footer class="footer">
@@ -136,4 +123,5 @@
     </div>
 </footer>
 
+<script src="index.js"></script>
 </html>
